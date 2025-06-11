@@ -32,7 +32,6 @@ A responsive React app showcasing popular food trucks across diverse cuisines. D
 
 > 🧑‍💻 This project can run on both GitHub Codespaces and VS Code.
 
-### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/jhapappu7165/Codepath_1.git

@@ -2,7 +2,7 @@
 
 Submitted by: **Pappu Jha**
 
-This web app: **insert description**
+This web app showcases popular food trucks across diverse cuisines. It is designed as a beginner-friendly community board project. It highlights 10 unique food trucks in a clean card layout — perfect for foodies or local event promotion!
 
 Time spent: **2** hours spent in total
 

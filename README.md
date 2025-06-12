@@ -32,9 +32,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-https://www.recordjoy.com/view/nwhKul9D0lnu1BzFie1o 
+<img src='https://i.imgur.com/gLlJg9v.gif' title='Video Walkthrough' width='500' alt='Video Walkthrough' />
 
-GIF created with RecordJoy
+GIF created with ScreenToGif
 
 ## Notes
 

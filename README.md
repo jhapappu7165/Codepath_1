@@ -33,6 +33,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 <img src='https://i.imgur.com/gLlJg9v.gif' title='Video Walkthrough' width='500' alt='Video Walkthrough' />
+![Video Walkthrough](https://i.imgur.com/gLlJg9v.gif)
 
 GIF created with ScreenToGif
 

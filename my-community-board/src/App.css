@@ -8,13 +8,13 @@ h1 {
   margin-bottom: 30px;
 }
 
-.card-grid {
+.site-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 }
 
-.card {
+.site {
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 10px;
@@ -22,16 +22,16 @@ h1 {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.card img {
+.site img {
   width: 100%;
   border-radius: 8px;
 }
 
-.card h3 {
+.site h3 {
   margin: 10px 0 5px;
 }
 
-.card p {
+.site p {
   color: #666;
 }
 

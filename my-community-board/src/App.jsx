@@ -1,76 +1,86 @@
 import './App.css'
-import Card from './Card'
+import Site from './Site'
 
 function App() {
-  const trucks = [
+  const sites = [
     {
-      name: "Birria-Landia",
-      cuisine: "Mexican",
-      image: "https://pyxis.nymag.com/v1/imgs/38c/2ac/b02a093f6b846ebd1aca78b0d59c7e427a-birria-1.rsocial.w1200.jpg",
-      menuLink: "https://birrialandia.com/"
+      name: "Pashupatinath Temple",
+      location: "Kathmandu",
+      date_of_inclusion: 1979,
+      image: "https://ik.imagekit.io/oulavalfq/download.jfif?updatedAt=1749691098649",
+      menuLink: "https://en.wikipedia.org/wiki/Pashupatinath_Temple"
     },
     {
-      name: "Mysttik Masala",
-      cuisine: "Indian",
-      image: "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_1200,ar_4:3,g_auto,f_auto/cms/reviews/mysttik-masala/banners/1561989798.42",
-      menuLink: "https://www.urbanhawker.com/mysttik-masaala"
+      name: "Boudhanath Stupa",
+      location: "Kathmandu",
+      date_of_inclusion: 1979,
+      image: "https://ik.imagekit.io/oulavalfq/download%20(1).jfif?updatedAt=1749691329681",
+      menuLink: "https://en.wikipedia.org/wiki/Boudhanath_Stupa"
     },
     {
-      name: "The Halal Guys",
-      cuisine: "Middle Eastern",
-      image: "https://nypost.com/wp-content/uploads/sites/2/2014/08/081114featureshalaguysbz-1.jpg?quality=75&amp;strip=all&amp;w=1024",
-      menuLink: "https://thehalalguys.com/"
+      name: "Swayambhunath Stupa",
+      location: "Kathmandu",
+      date_of_inclusion: 1979,
+      image: "https://ik.imagekit.io/oulavalfq/download%20(2).jfif?updatedAt=1749691329575",
+      menuLink: "https://en.wikipedia.org/wiki/Swayambhunath"
     },
     {
-      name: "NY Dosas",
-      cuisine: "Vegetarian",
-      image: "https://nydosas.com/wp-content/uploads/2018/07/maxresdefault-2-1024x630.jpg",
-      menuLink: "https://www.yelp.com/biz/ny-dosas-new-york"
+      name: "Kathmandu Durbar Square",
+      location: "Kathmandu",
+      date_of_inclusion: 1979,
+      image: "https://ik.imagekit.io/oulavalfq/download%20(3).jfif?updatedAt=1749691329820",
+      menuLink: "https://en.wikipedia.org/wiki/Kathmandu_Durbar_Square"
     },
     {
-      name: "Jerk Pan",
-      cuisine: "Jamaican",
-      image: "https://infatuation.imgix.net/media/images/reviews/jerk-pan/banners/1561989308.8.jpg",
-      menuLink: "https://manna-biscus.com/products/authentic-jamaican-jerk-chicken-full-size-pan"
+      name: "Patan Durbar Square",
+      location: "Lalitpur (Patan)",
+      date_of_inclusion: 1979,
+      image: "https://ik.imagekit.io/oulavalfq/images.jfif?updatedAt=1749691329773",
+      menuLink: "https://en.wikipedia.org/wiki/Patan_Durbar_Square"
     },
     {
-      name: "Tong",
-      cuisine: "Bangladeshi",
-      image: "https://static01.nyt.com/images/2019/09/04/dining/29hungry-tong2/merlin_159654336_783be212-7726-485e-9250-4793a743af41-jumbo.jpg",
-      menuLink: "https://www.facebook.com/Bangladeshistreetfoods/"
+      name: "Bhaktapur Durbar Square",
+      location: "Bhaktapur",
+      date_of_inclusion: 1979,
+      image: "https://ik.imagekit.io/oulavalfq/images.jfif?updatedAt=1749691329773",
+      menuLink: "https://en.wikipedia.org/wiki/Bhaktapur_Durbar_Square"
     },
     {
-      name: "King Souvlaki of Astoria",
-      cuisine: "Greek",
-      image: "https://kingsouvlakinyc.com/wp-content/themes/king/images/location-f.jpg",
-      menuLink: "https://www.yelp.com/biz/king-souvlaki-astoria-astoria-2"
+      name: "Changu Narayan Temple",
+      location: "Bhaktapur",
+      date_of_inclusion: 1979,
+      image: "https://ik.imagekit.io/oulavalfq/changu-narayan.jpg?updatedAt=1749691330813",
+      menuLink: "https://en.wikipedia.org/wiki/Changu_Narayan"
     },
     {
-      name: "Ling's Sweet Mini Cakes",
-      cuisine: "Chinese",
-      image: "https://fastly.4sqi.net/img/general/600x600/61129566_7PLEKHNMZ-VNqzYx2jWRVZGrZ42PdPX0M-j9Ftpg8Ts.jpg",
-      menuLink: "https://www.yelp.com/biz/lings-sweet-mini-cakes-new-york"
+      name: "Lumbini (Birthplace of Buddha)",
+      location: "Rupandehi District",
+      date_of_inclusion: 1997,
+      image: "https://ik.imagekit.io/oulavalfq/download%20(4).jfif?updatedAt=1749691329735",
+      menuLink: "https://en.wikipedia.org/wiki/Lumbini"
     },
     {
-      name: "Uncle Gussy's",
-      cuisine: "Greek",
-      image: "https://d3hbe0kmbam4a5.cloudfront.net/photos/67e1cdb7-bc27-4f26-8343-851bfaa7fc22.jpg",
-      menuLink: "https://www.yelp.com/biz/uncle-gussys-new-york"
+      name: "Chitwan National Park",
+      location: "Chitwan District",
+      date_of_inclusion: 1984,
+      image: "https://ik.imagekit.io/oulavalfq/download%20(5).jfif?updatedAt=1749691329828",
+      menuLink: "https://en.wikipedia.org/wiki/Chitwan_National_Park"
     },
     {
-      name: "Patacon Pisao",
-      cuisine: "Venezuelan",
-      image: "https://live.staticflickr.com/8088/8400188739_53b16c7d13_z.jpg",
-      menuLink: "https://www.pataconpisaonyc.com/"
+      name: "Sagarmatha National Park",
+      location: "Solukhumbu District",
+      date_of_inclusion: 1979,
+      image: "https://ik.imagekit.io/oulavalfq/images%20(1).jfif?updatedAt=1749691329611",
+      menuLink: "https://en.wikipedia.org/wiki/Sagarmatha_National_Park"
     }
   ]
 
   return (
     <div className="App">
-      <h1>Food Truck Favorites</h1>
-      <div className="card-grid">
-        {trucks.map((truck, index) => (
-          <Card key={index} name={truck.name} cuisine={truck.cuisine} image={truck.image} menuLink={truck.menuLink} />
+      <h1>World Heritage Sites in Nepal</h1>
+      <div className="site-grid">
+        {sites.map((site, index) => (
+          <Site key={index} name={site.name} location={site.location} date_of_inclusion = {site.date_of_inclusion} image={site.image} menuLink={site.menuLink} />
         ))}
       </div>
     </div>

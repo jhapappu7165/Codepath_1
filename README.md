@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-![Video Walkthrough](https://i.imgur.com/gLlJg9v.gif)
+https://i.imgur.com/gLlJg9v.gif
 
 GIF created with ScreenToGif
 

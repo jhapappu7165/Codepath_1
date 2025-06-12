@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://www.recordjoy.com/view/nwhKul9D0lnu1BzFie1o' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://www.recordjoy.com/view/nwhKul9D0lnu1BzFie1o 
 
 GIF created with RecordJoy
 

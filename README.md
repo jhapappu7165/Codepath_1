@@ -1,8 +1,8 @@
-# Web Development Project 1 - *Food Truck Favorites*
+# Web Development Project 1 - *World Heritage Sites in Nepal*
 
 Submitted by: **Pappu Jha**
 
-This web app showcases popular food trucks across diverse cuisines. It is designed as a beginner-friendly community board project. It highlights 10 unique food trucks in a clean card layout — perfect for foodies or local event promotion!
+This web app showcases ten World Heritage Sites in Nepal. It is designed as an informational community board project. It highlights Nepal's historical locations in a clean card layout — perfect for tourists or local heritage promotion!
 
 Time spent: **2** hours spent in total
 
@@ -26,13 +26,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] I inserted specific links for each of the food truck items.
+* [ ] I inserted specific links for each of the historical sites.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://www.recordjoy.com/view/nwhKul9D0lnu1BzFie1o' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with RecordJoy
 
